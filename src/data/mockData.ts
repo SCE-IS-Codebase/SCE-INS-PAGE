@@ -262,62 +262,7 @@ export const allEvents: Event[] = chapters.flatMap(chapter =>
   }))
 );
 
-export const team: TeamMember[] = [
-  {
-    id: "member-1",
-    name: "Christian Mendoza",
-    position: "Presidente",
-    email: "christian.mendoza.h@ucb.edu.bo",
-    whatsapp: "+59175217073",
-    calendarLink: "https://calendar.app.google/UwpwzX5gGh1Ad5Mp7",
-    image: "/images/directiva/Chris.jpg"
-  },
-  {
-    id: "member-2",
-    name: "Cesar Vera",
-    position: "Vicepresidente",
-    email: "cesar.vera@ucb.edu.bo",
-    whatsapp: "+59173479050",
-    calendarLink: "http://calendar.app.google/cgrfEcY1unvKKUin6",
-    image: "/images/directiva/Cesar.jpg"
-  },
-  {
-    id: "member-3",
-    name: "Jhulianna Tarqui",
-    position: "Secretaria General",
-    email: "jhulianna.tarqui@ucb.edu.bo",
-    whatsapp: "+59173005680",
-    calendarLink: "#calendar",
-    image: "/images/directiva/Jhuly.jpeg"
-  },
-  {
-    id: "member-4",
-    name: "Andrea Laffertt",
-    position: "Vocal",
-    email: "andrea.fernandez.l@ucb.edu.bo",
-    whatsapp: "+59172045492",
-    calendarLink: "#calendar",
-    image: "/images/directiva/Andrea.jpg"
-  },
-  {
-    id: "member-5",
-    name: "Max Pasten",
-    position: "Vocal",
-    email: "max.pasten@ucb.edu.bo",
-    whatsapp: "+59168171114",
-    calendarLink: "#calendar",
-    image: ""
-  },
-  {
-    id: "member-6",
-    name: "Jesus Velasco",
-    position: "Vocal",
-    email: "jaicel.velasco@ucb.edu.bo",
-    whatsapp: "+59167140089",
-    calendarLink: "#calendar",
-    image: ""
-  },
-];
+export const team: TeamMember[] = [];
 
 export const publications: Publication[] = [
   {
